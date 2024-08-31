@@ -1,0 +1,98 @@
+
+   
+
+    <!-- <style>
+        body {
+
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+         
+         .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        
+        .card {
+            background-color: #d0f1ef;
+            border: 1px solid #a4c7c7;
+            border-radius: 8px;
+            padding: 20px;
+            width: 420px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .card h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+       
+        .card a {
+            font-weight: bold;
+            text-decoration: none;
+            color: #0e6d69;
+            
+        }
+    </style> -->
+    <!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>CS55.13 week2 kdurkin - React Import External JSON </title>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+ 
+  <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin>
+  </script> 
+  
+  <script src="https://unpkg.com/@babel/standalone@7.22.10/babel.min.js"></script>
+  <link rel="stylesheet" type="text/css" href = "home.css">
+
+    </head>
+
+    <body>
+        <h1>Past Projects</h1>
+
+        <div id="projectApp"></div>
+        <script type="text/babel">
+            "use strict";
+
+            function Portfolio(properties) {
+                console.log(properties);
+
+                return (
+                    <div className="container">
+                    {properties.list.map((entry, index) => (
+                        <div key={index} className="card">
+                            
+                            <h2>{entry.title}</h2>
+                            <p>{entry.description}</p>
+                            <a href={entry.link}>View Project</a>
+                        </div>
+                    ))}
+                </div>
+                );
+            }
+
+
+       
+
+    $.getJSON(
+        'anything',
+        function(jData) {
+
+            const projectRoot = ReactDOM.createRoot( document.getElementById('projectApp'));
+            projectRoot.render(
+                <Portfolio list = {jData} />
+            );
+        }
+
+);
+
+</script>
+    </body>
+</html>

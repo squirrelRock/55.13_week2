@@ -3,7 +3,7 @@
     "id": "04/29/2024",
     "title": "Dog House Swamp - Platform Game ",
     "subtitle": "Week 14",
-    "description": "A whimsical multi-level video game featuring a frog who collects mushrooms that give him the special power to catch the flying dog and carry her to the dog house. Deadly squid and jellyfish must be avoided. Contains colorful graphics, sprite animations, sound effects, and soundtrack with on/off option.",
+    "description": "A whimsical multi-level video game featuring a frog who collects mushrooms that give him the special power to catch the flying dog and carry her to the dog house.  Space bar fires shots - arrow keys move left, up, and right",
     "skills": "[Phaser3, Javascript, Adobe Illustrator, Photoshop]",
     "image_path": "Week14-PhaserGame300.webp",
     "image2": "Week14-PhaserGame640.webp",
@@ -24,7 +24,7 @@
     "id": "04/15/2024",
     "title": "Drag the Shapes",
     "subtitle": "Week 12",
-    "description": "Concentric circles and squares are generated as draggable and the user can rearrange them, or randomize them, and call them to animate back to their original positions.",
+    "description": "Concentric circles and squares are generated as draggable elements. The player can randomize them, rearrange them, and watch them animate back to their original positions.",
     "skills": "[D3, Javascript, jQuery, Bootstrap]",
     "image_path": "Week9-ShapeDRAG300.webp",
      "image2": "Week9-ShapeDRAG640.webp",
@@ -39,17 +39,8 @@
     "image_path": "Week11_pieChart300.webp",
      "image2": "Week11_pieChart.webp",
     "link": "https://squirrelrock.com/play/Kelly/CS50C_Week11/pieChart.html"
-  },
-  {
-    "id": "03/25/2024",
-    "title": "Geolocation and Data Layers",
-    "subtitle": "Week 9",
-    "description": "Used ArcGIS GeoJSON data and the Leaflet API to render a mobile-ready and responsive map interface of eight species of squirrels in California with interactive markers and a geolocation feature.",
-    "skills": "[Leaflet, ArcGIS, jQuery, Bootstrap]",
-    "image_path": "Week9-SquirrelRangeMap300.webp",
-     "image2": "Week9-SquirrelRangeMap640.webp",
-    "link": "https://squirrelrock.com/play/Kelly/CS50C_Week9/inLeaflet.html"
   }
+  
   
 
 ]
