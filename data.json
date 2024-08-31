@@ -1,19 +1,19 @@
 [
   {
     "id": "04/29/2024",
-    "title": "Dog House Swamp",
+    "title": "Dog House Swamp - Platform Game ",
     "subtitle": "Week 14",
     "description": "A whimsical multi-level video game featuring a frog who collects mushrooms that give him the special power to catch the flying dog and carry her to the dog house. Deadly squid and jellyfish must be avoided. Contains colorful graphics, sprite animations, sound effects, and soundtrack with on/off option.",
     "skills": "[Phaser3, Javascript, Adobe Illustrator, Photoshop]",
     "image_path": "Week14-PhaserGame300.webp",
     "image2": "Week14-PhaserGame640.webp",
-    "link": "https://squirrelrock.com/play/Jelly/index.html"
+    "link": "https://squirrelrock.com/play/Kelly/DogHouseMonday/"
   },
   {
     "id": "04/22/2024",
-    "title": "'Squid Invaders'- Phaser3 arcade game",
+    "title": "'Squid Invaders'",
     "subtitle": "Week 13",
-    "description": "A functional arcade game modeled after Space Invaders using Phaser3.  Player has a hideout cave to take breaks.",
+    "description": "A mostly-functional arcade game modeled after Space Invaders using Phaser3.  Space bar fires shots - arrow keys move left, up, and right - use the hideout cave to take breaks.",
     "skills": "Phaser3, Javascript",
     "image_path": "Week8-Jell-Invaders300.webp",
     "link": "https://squirrelrock.com/play/Kelly/CS50C_Week13/fish.html",
@@ -22,7 +22,7 @@
 
   {
     "id": "04/15/2024",
-    "title": "D3 visualizations",
+    "title": "Drag the Shapes",
     "subtitle": "Week 12",
     "description": "Concentric circles and squares are generated as draggable and the user can rearrange them, or randomize them, and call them to animate back to their original positions.",
     "skills": "[D3, Javascript, jQuery, Bootstrap]",
@@ -32,13 +32,13 @@
   },
   {
     "id": "04/08/2024",
-    "title": "Data visualisation - HTML5 Canvas",
+    "title": "Animals That Cause Power Outages",
     "subtitle": "Week 11",
     "description": "A pie chart data visualization of worldwide power outages from 2013 to 2018 that were caused by animals. Chart is constructed using an HTML5 canvas element.",
     "skills": "[Canvas, Javascript, jQuery, Bootstrap]",
     "image_path": "Week11_pieChart300.webp",
      "image2": "Week11_pieChart.webp",
-    "link": "https://squirrelrock.com/play/Kelly/CS50C_Week11/index.html"
+    "link": "https://squirrelrock.com/play/Kelly/CS50C_Week11/pieChart.html"
   },
   {
     "id": "03/25/2024",

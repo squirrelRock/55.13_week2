@@ -7,7 +7,7 @@ const requestListener = function(clientRequest, serverResponse) {
 
     console.log(clientRequest.url);
 
-    if(clientRequest === "/") {
+    if(clientRequest.url === "/") {
         
         fs.readFile(__dirname + "/homePage.html")
             .then(
