@@ -7,7 +7,7 @@
     "skills": "[Phaser3, Javascript, Adobe Illustrator, Photoshop]",
     "image_path": "Week14-PhaserGame300.webp",
     "image2": "Week14-PhaserGame640.webp",
-    "link": "https://squirrelrock.com/play/Kelly/DogHouseMonday/"
+    "weblink": "https://squirrelrock.com/play/Kelly/DogHouseMonday/"
   },
   {
     "id": "04/22/2024",
@@ -16,7 +16,7 @@
     "description": "A somewhat functional arcade game modeled after Space Invaders using Phaser3.  Space bar fires shots - arrow keys move left, up, and right - use the hideout cave to take breaks.",
     "skills": "Phaser3, Javascript",
     "image_path": "Week8-Jell-Invaders300.webp",
-    "link": "https://squirrelrock.com/play/Kelly/CS50C_Week13/fish.html",
+    "weblink": "https://squirrelrock.com/play/Kelly/CS50C_Week13/fish.html",
      "image2": "Week8-Jell-Invaders640.webp"
   },
 
@@ -28,7 +28,7 @@
     "skills": "[D3, Javascript, jQuery, Bootstrap]",
     "image_path": "Week9-ShapeDRAG300.webp",
      "image2": "Week9-ShapeDRAG640.webp",
-    "link": "https://squirrelrock.com/play/Kelly/CS50C_Week12/shapeDragSQR.html"
+    "weblink": "https://squirrelrock.com/play/Kelly/CS50C_Week12/shapeDragSQR.html"
   },
   {
     "id": "04/08/2024",
@@ -38,7 +38,7 @@
     "skills": "[Canvas, Javascript, jQuery, Bootstrap]",
     "image_path": "Week11_pieChart300.webp",
      "image2": "Week11_pieChart.webp",
-    "link": "https://squirrelrock.com/play/Kelly/CS50C_Week11/pieChart.html"
+    "weblink": "https://squirrelrock.com/play/Kelly/CS50C_Week11/pieChart.html"
   }
   
   
