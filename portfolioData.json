@@ -13,7 +13,7 @@
     "id": "04/22/2024",
     "title": "'Squid Invaders'",
     "subtitle": "Week 13",
-    "description": "A mostly-functional arcade game modeled after Space Invaders using Phaser3.  Space bar fires shots - arrow keys move left, up, and right - use the hideout cave to take breaks.",
+    "description": "A somewhat functional arcade game modeled after Space Invaders using Phaser3.  Space bar fires shots - arrow keys move left, up, and right - use the hideout cave to take breaks.",
     "skills": "Phaser3, Javascript",
     "image_path": "Week8-Jell-Invaders300.webp",
     "link": "https://squirrelrock.com/play/Kelly/CS50C_Week13/fish.html",

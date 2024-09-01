@@ -4,7 +4,7 @@ const kd_http = require("http");
 const kd_fs = require("fs").promises;
 const kd_path = require("path");
 
-const requestListener = function(clientRequest, serverResponse) {
+const theListener = function(clientRequest, serverResponse) {
 
     console.log(clientRequest.url);
 
@@ -40,7 +40,7 @@ const requestListener = function(clientRequest, serverResponse) {
     }
 };
 
-const kd_server = kd_http.createServer(requestListener);
+const kd_server = kd_http.createServer(theListener);
 
 const kd_host = "127.0.0.1";
 const kd_port = "3000";

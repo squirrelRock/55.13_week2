@@ -4,8 +4,9 @@ body {
 }
 
 h1 {
-
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    padding: 30px;
 }
  
  .container {
@@ -26,13 +27,13 @@ h1 {
 }
 
 
-.card h2 {
+h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 
 
-.card a {
+a {
     font-weight: bold;
     text-decoration: none;
     color: #0e6d69;
